@@ -1,7 +1,7 @@
+script_key="YOUR KEY";
 getgenv().Divine = {
     Options = {
         Version = ("0.0.4.7"), -- // Do Not Touch. This Will Detect If You Are Using Old Table
-        script_Key ="Your Key"; -- // Put Your Key Here!
         Intro = (true), -- // Shows You An Intro
         AutoGetUp = (true), -- // If You Are Laying Down Unable To Stand Up It Will AutoMatically Get You Up
         AntiError = (false), -- // Removes Errors In Console
@@ -46,9 +46,9 @@ getgenv().Divine = {
     Silent = {
         Enabled = (true), -- // Enable / Disable Silent Aim
         UseSilentKeyBind = (true), -- // Use The KeyBind To Enable / Disable The Silent Aim
-        KeyBind = ("B"), -- // The Key That Enables / Disables The Silent Aim
-        LegitMode = (false), -- // You Wont Make You Curve That Much. You Need To Predict Atleast For It To Work
-        BlatantMode = (true), -- // This Will Make You Hit More But It Will Effect The Resolver Detection. It Will Still Resolve But The More Advanced Will Probably Not.
+        KeyBind = ("Z"), -- // The Key That Enables / Disables The Silent Aim
+        LegitMode = (true), -- // You Wont Make You Curve That Much. You Need To Predict Atleast For It To Work
+        BlatantMode = (false), -- // This Will Make You Hit More But It Will Effect The Resolver Detection. It Will Still Resolve But The More Advanced Will Probably Not.
         
         ForceLock = (false), -- // You Press The Button To Target The Player. RISKY!
         ForceLock_AimAssistTarget = (true), -- // Uses AimAssist Target Instead Of Silent Aim
